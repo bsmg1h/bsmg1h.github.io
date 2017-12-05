@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>利用GitHub与Hexo建立自己的个人主页 | Scyphozoa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你1：">
+  <meta name="description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你：">
 <meta name="keywords" content="blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用GitHub与Hexo建立自己的个人主页">
 <meta property="og:url" content="http://yoursite.com/2017/12/02/利用GitHub与hexo建立自己的个人主页/index.html">
 <meta property="og:site_name" content="Scyphozoa">
-<meta property="og:description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你1：">
-<meta property="og:updated_time" content="2017-12-04T14:01:22.763Z">
+<meta property="og:description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你：">
+<meta property="og:updated_time" content="2017-12-05T07:58:33.387Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用GitHub与Hexo建立自己的个人主页">
-<meta name="twitter:description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你1：">
+<meta name="twitter:description" content="这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在GitHub上使用hexo建站，那么这篇文章可能会帮到你：">
   
     <link rel="alternative" href="/atom.xml" title="Scyphozoa" type="application/atom+xml">
   
@@ -174,10 +174,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在<a href="https://zh.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener">GitHub</a>上使用<a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="noopener">hexo</a>建站，那么这篇文章可能会帮到你1：</p>
+        <p>这个标题可能早已烂大街，网上有很多技术大拿总结出了非常全面的攻略。但很多攻略的发布时间距今已经比较久远，自己在实际操作过程中依然踩了不少坑。这里不对比其它主流建站方式，如果你已经下定决心在<a href="https://zh.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener">GitHub</a>上使用<a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="noopener">hexo</a>建站，那么这篇文章可能会帮到你：</p>
 <a id="more"></a>
 <hr>
-<h2><span id="mu-lu">目录</span><a href="#mu-lu" class="header-anchor">#</a></h2><p>[TOC]</p>
+<h2><a href="#mu-lu" class="header-anchor">#</a><span id="mu-lu">目录</span></h2><p>[TOC]</p>
 <div class="toc">
 
 <!-- toc -->
@@ -189,18 +189,25 @@
 <li><a href="#geng-huan-zhu-ti">更换主题</a></li>
 </ul>
 </li>
+<li><a href="#wei-hexo-tian-jia-cha-jian">为hexo添加插件</a><ul>
+<li><a href="#rang-bo-ke-zhi-chi-shu-xue-gong-shi-shu-ru">让博客支持数学公式输入</a></li>
+<li><a href="#rang-bo-ke-xian-shi-liu-cheng-tu-flowchart">让博客显示流程图(flowchart)</a></li>
+<li><a href="#rang-bo-ke-zi-dong-sheng-cheng-mu-lu">让博客自动生成目录</a></li>
+</ul>
+</li>
+<li><a href="#nei-rong-bian-ji">内容编辑</a></li>
 </ul>
 <!-- tocstop -->
 </div>
 
-<h2><span id="huan-jing">环境</span><a href="#huan-jing" class="header-anchor">#</a></h2><ul>
+<h2><a href="#huan-jing" class="header-anchor">#</a><span id="huan-jing">环境</span></h2><ul>
 <li>本文操作系统为windows 10，mac与linux上操作步骤大同小异</li>
 <li>最新版本 <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li>
 <li>最新版本 <a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a></li>
 <li>在安装hexo时，需要本机支持<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a></li>
 </ul>
 <p>安装方法不在这里赘述，详情请参阅各官方文档。</p>
-<h2><span id="bu-zou">步骤</span><a href="#bu-zou" class="header-anchor">#</a></h2><h3><span id="zai-ben-di-sheng-cheng-ni-de-di-yi-ge-bo-ke">在本地生成你的第一个博客</span><a href="#zai-ben-di-sheng-cheng-ni-de-di-yi-ge-bo-ke" class="header-anchor">#</a></h3><p>安装好hexo之后，在你的hexo文件目录下，利用git-bash执行如下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog <span class="comment"># 博客目录被设置为hexo\blog</span></span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g <span class="comment"># 或者hexo generate</span></span><br><span class="line">$ hexo s <span class="comment"># 或者hexo server，可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure></p>
+<h2><a href="#bu-zou" class="header-anchor">#</a><span id="bu-zou">步骤</span></h2><h3><a href="#zai-ben-di-sheng-cheng-ni-de-di-yi-ge-bo-ke" class="header-anchor">#</a><span id="zai-ben-di-sheng-cheng-ni-de-di-yi-ge-bo-ke">在本地生成你的第一个博客</span></h3><p>安装好hexo之后，在你的hexo文件目录下，利用git-bash执行如下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog <span class="comment"># 博客目录被设置为hexo\blog</span></span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g <span class="comment"># 或者hexo generate</span></span><br><span class="line">$ hexo s <span class="comment"># 或者hexo server，可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure></p>
 <p>现在你可以通过<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 来查看自己的博客了。由于4000端口是一个比较常用的端口，很可能会与其他应用发生冲突。若想要变更本地服务器端口，请参阅hexo的<a href="https://hexo.io/zh-cn/docs/server.html" target="_blank" rel="noopener">服务器官方说明</a></p>
 <p>这里也列出一些常用语法的作用及缩写含义：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g == hexo generate <span class="comment"># 生成</span></span><br></pre></td></tr></table></figure></p>
 <p>执行命令后，会在当前目录下生成一个新的叫做public的文件夹, 存放着博客的静态文件。之后提交该目录到GitHub上即可远程访问<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s == hexo server <span class="comment"># 本地服务器发布</span></span><br></pre></td></tr></table></figure></p>
@@ -208,19 +215,21 @@
 <p>执行命令后，将静态文件部署到远端（在本文环境内为GitHub）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">$ hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br></pre></td></tr></table></figure></p>
 <p>常用的命令组合：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g <span class="comment">#生成部署</span></span><br><span class="line">$ hexo s -g <span class="comment">#生成预览</span></span><br></pre></td></tr></table></figure></p>
 <p>接下来你可以尝试使用<code>hexo new &quot;2333&quot;</code>新建一篇名为2333的文章，该文章被保存在<code>hexo\blog\source\_posts</code>文件夹下，格式为markdown，可以方便地用记事本打开、编辑、保存。打开这个文件，随便添加一些内容并保存后，使用<code>hexo s -g</code>看一下博客的变化吧</p>
-<h3><span id="li-yong-github-page-yuan-cheng-bu-shu-ni-de-bo-ke">利用GitHub Page远程部署你的博客</span><a href="#li-yong-github-page-yuan-cheng-bu-shu-ni-de-bo-ke" class="header-anchor">#</a></h3><p>Hexo的强大功能让远程部署变得异常简洁。第一次部署时，仅需完成以下步骤：</p>
+<h3><a href="#li-yong-github-page-yuan-cheng-bu-shu-ni-de-bo-ke" class="header-anchor">#</a><span id="li-yong-github-page-yuan-cheng-bu-shu-ni-de-bo-ke">利用GitHub Page远程部署你的博客</span></h3><p>Hexo的强大功能让远程部署变得异常简洁。第一次部署时，仅需完成以下步骤：</p>
 <ul>
 <li>在你的GitHub账户下建立<code>username.github.io</code>的repository。例如我的gihub账户名为bsmg1h，则repository的名称须为<code>bsmg1h.gihub.io</code>，这个repository将会用于储存个人GitHub账户下的个人主页。个人主页的建立利用到了GitHub Pages服务中的<a href="https://pages.github.com/" target="_blank" rel="noopener">User Site</a>功能。如果是第一次建立该repository，则一开始保持空目录即可。</li>
-<li><p>在配置文件<code>hexo\blog\_config.xml</code>中作如下修改,这里请将username替换为自己的GitHub用户名</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<li>在配置文件<code>hexo\blog\_config.xml</code>中作如下修改：<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 </li>
+</ul>
+<p>这里请将username替换为自己的GitHub用户名</p>
+<ul>
 <li><p>在<code>hexo</code>目录下bash执行</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save <span class="comment"># 让hexo支持github部署</span></span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>访问<code>username.github.io</code>即可看到你的博客啦。</p>
 </li>
 </ul>
-<h3><span id="geng-huan-zhu-ti">更换主题</span><a href="#geng-huan-zhu-ti" class="header-anchor">#</a></h3><p>所有博客的主题均保存在<code>hexo\themes</code>文件夹下。hexo初始生成的博客使用了默认主题<em>landscape</em>， 如欲更换hexo主题，需要自行搜索下载。这里以本博客使用的<em>yilia</em>主题为例。</p>
+<h3><a href="#geng-huan-zhu-ti" class="header-anchor">#</a><span id="geng-huan-zhu-ti">更换主题</span></h3><p>所有博客的主题均保存在<code>hexo\themes</code>文件夹下。hexo初始生成的博客使用了默认主题<em>landscape</em>， 如欲更换hexo主题，需要自行搜索下载。这里以本博客使用的<em>yilia</em>主题为例。</p>
 <ul>
 <li><p>安装</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
@@ -230,12 +239,63 @@
 <li>主题的作者会不时更新主题源码，更新时请在bash执行：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/yilia</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<ol>
-<li>h</li>
-<li>hh</li>
-<li>hhh</li>
-<li>hhhh</li>
-</ol>
+<h2><a href="#wei-hexo-tian-jia-cha-jian" class="header-anchor">#</a><span id="wei-hexo-tian-jia-cha-jian">为hexo添加插件</span></h2><p>hexo官方收录了229种功能各异的<a href="https://hexo.io/plugins/" target="_blank" rel="noopener">hexo插件</a>，可以按照自己的需求为博客添加不同的功能。这里介绍几种功能专一的插件，其他插件的添加方式也可简单类比。</p>
+<h3><a href="#rang-bo-ke-zhi-chi-shu-xue-gong-shi-shu-ru" class="header-anchor">#</a><span id="rang-bo-ke-zhi-chi-shu-xue-gong-shi-shu-ru">让博客支持数学公式输入</span></h3><p>这可能是一个学术博客的刚需，<a href="https://github.com/hexojs/hexo-math" target="_blank" rel="noopener">hexo-math</a>是官方提供的让hexo支持$\LaTeX$输入的插件，可以简单输出美观大方的公式。例如行间公式$a = b + c$，或者居中显示的大型公式：</p>
+<blockquote>
+<ul>
+<li>大型分式<script type="math/tex; mode=display">x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</script></li>
+<li>特殊字母与运算符<script type="math/tex; mode=display">
+\begin{eqnarray}
+\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \\
+\nabla\cdot\vec{B} &=& 0 \\
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+\end{eqnarray}</script></li>
+<li>大型运算符<script type="math/tex; mode=display">\lim _{ x\rightarrow \infty  }{ \sum _{ k=1 }^{ x }{ \frac { \sin { k } +\cos { k }  }{ k }  }  }</script></li>
+</ul>
+</blockquote>
+<p>安装步骤如下：</p>
+<ul>
+<li><p>从github下载插件原包：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-math --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更改博客配置文件<code>hexo\blog\_config.xml</code></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">math:</span><br><span class="line">  engine: 'mathjax' # or 'katex'</span><br><span class="line">  mathjax:</span><br><span class="line">    src: custom_mathjax_source</span><br><span class="line">    config:</span><br><span class="line">      # MathJax config</span><br><span class="line">  katex:</span><br><span class="line">    css: custom_css_source</span><br><span class="line">    js: custom_js_source # not used</span><br><span class="line">    config:</span><br><span class="line">      # KaTeX config</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看<code>hexo\blog\themes\你使用的主题\_config.xml</code>，确保你使用的主题打开了math或mathjax开关。如若不想全局开启math功能，则在需要此功能的文章md文件头部添加<code>mathjax: true</code></p>
+</li>
+<li>可能会遇到<code>markdown</code>与$\LaTeX$发生冲突的问题，这里直接给出解决方案，在bash中输入<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-renderer-marked --save</span><br><span class="line">$ npm install hexo-renderer-markdown-it-plus --save</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>详情请查看<a href="http://cn.clanzd.com/mathjax-for-hexo.html" target="_blank" rel="noopener">这篇文章</a>。</p>
+<h3><a href="#rang-bo-ke-xian-shi-liu-cheng-tu-flowchart" class="header-anchor">#</a><span id="rang-bo-ke-xian-shi-liu-cheng-tu-flowchart">让博客显示流程图(flowchart)</span></h3><p>一些实验过程用流程图展示会更加方便，例如</p>
+<p><div id="flowchart-0" class="flow-chart"></div><br>图的使用方法可参阅<a href="https://github.com/bubkoo/hexo-filter-flowchart" target="_blank" rel="noopener">flowchart插件的GitHub页面</a></p>
+<ul>
+<li><p>安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-filter-flowchart</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在配置文件<code>hexo\blog\_config.xml</code>下添加</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">flowchart:</span><br><span class="line">  raphael: https://cdn.bootcss.com/raphael/2.2.7/raphael.min.js</span><br><span class="line">  flowchart: https://cdn.bootcss.com/flowchart/1.7.0/flowchart.min.js</span><br><span class="line">  options":</span><br><span class="line">      scale: 1,</span><br><span class="line">      line-width: 2</span><br><span class="line">      line-length: 50</span><br><span class="line">      text-margin: 10</span><br><span class="line">      font-size: 12</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3><a href="#rang-bo-ke-zi-dong-sheng-cheng-mu-lu" class="header-anchor">#</a><span id="rang-bo-ke-zi-dong-sheng-cheng-mu-lu">让博客自动生成目录</span></h3><ul>
+<li><p>安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-toc --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在配置文件<code>hexo\blog\_config.xml</code>下添加</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">toc:</span><br><span class="line">  maxdepth: 3</span><br><span class="line">  class: toc</span><br><span class="line">  slugify: transliteration</span><br><span class="line">  decodeEntities: false</span><br><span class="line">  anchor:</span><br><span class="line">    position: before</span><br><span class="line">    symbol: '#'</span><br><span class="line">    style: header-anchor</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>使用方法请查看插件的GitHub页面：<a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="noopener">https://github.com/bubkoo/hexo-toc</a></p>
+<h2><a href="#nei-rong-bian-ji" class="header-anchor">#</a><span id="nei-rong-bian-ji">内容编辑</span></h2><p>线下编辑器不用多说，选择太多了，自己仍然选择sublime<br>在线编辑器推荐<a href="http://marxi.co/，用了就知道：）" target="_blank" rel="noopener">http://marxi.co/，用了就知道：）</a></p>
+<p>这个博客的外观及各种功能还较为粗糙，之后会定期花时间继续打磨整理。<br>这里感谢各位大佬的细致攻略，参考资料如下：<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">Litten 的 Yilia主题GitHub页面</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="noopener">如何搭建一个独立博客——简明Github Pages与Hexo教程</a><br><a href="http://cn.clanzd.com/mathjax-for-hexo.html" target="_blank" rel="noopener">在 Hexo 中完美使用 Mathjax 输出数学公式</a><script src="https://cdn.bootcss.com/raphael/2.2.7/raphael.min.js"></script><script src="https://cdn.bootcss.com/flowchart/1.7.0/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":"1,","line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
 
       
 
@@ -380,7 +440,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">目录#</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">环境#</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">步骤#</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.1.</span> <span class="toc-text">在本地生成你的第一个博客#</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.2.</span> <span class="toc-text">利用GitHub Page远程部署你的博客#</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.3.</span> <span class="toc-text">更换主题#</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">#目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">#环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">#步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.1.</span> <span class="toc-text">#在本地生成你的第一个博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.2.</span> <span class="toc-text">#利用GitHub Page远程部署你的博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.3.</span> <span class="toc-text">#更换主题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">4.</span> <span class="toc-text">#为hexo添加插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">4.1.</span> <span class="toc-text">#让博客支持数学公式输入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">4.2.</span> <span class="toc-text">#让博客显示流程图(flowchart)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">4.3.</span> <span class="toc-text">#让博客自动生成目录</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">5.</span> <span class="toc-text">#内容编辑</span></a></li></ol>
                     </div>
                 </span>
             </div>
